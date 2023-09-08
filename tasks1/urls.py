@@ -3,5 +3,5 @@ from . import views
 
 
 urlpatterns = [
-    path("", views.getData, name="home")
+    path("slack_name=olatunde&track=backend", views.getData, name="home")
 ]
